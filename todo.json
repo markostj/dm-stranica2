@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "id": "2ea08afe-1120-43cd-aaff-8ada36278bd7",
+      "title": "Iznijeti smeće",
+      "completed": true,
+      "date": 1553934915350
+    },
+    {
+      "id": "f1a5bf4a-f585-4c1e-b19d-fc8063760a9f",
+      "title": "Registracija",
+      "completed": false,
+      "date": "Sat Mar 30 2019 8:30:21 GMT+0100 (Central European Standard Time)"
+    },
+    {
+      "id": "f9697eb9-b8fb-4590-8f8c-fe82af479b59",
+      "title": "Predati seminar",
+      "completed": false,
+      "date": "Sat Mar 24 2019 09:44:21 GMT+0100 (Central European Standard Time)"
+    },
+    {
+      "id": "c01f231c-14f5-4d25-839a-f0d0bbd3989b",
+      "title": "Shopping",
+      "completed": false,
+      "date": 1548837363347
+    },
+    {
+      "id": "1878ccc5-011b-4985-95c6-752ffc076b1e",
+      "title": "Iznijeti smeće",
+      "completed": false,
+      "date": "Sat Mar 30 2019 09:30:21 GMT+0100 (Central European Standard Time)"
+    },
+    {
+      "id": "ada189b9-387f-43c4-a4fd-f36e2c054738",
+      "title": "Oprati auto",
+      "completed": true,
+      "date": "Sat Mar 30 2019 09:30:21 GMT+0100 (Central European Standard Time)"
+    },
+    {
+      "id": "993e9a6f-e76c-447e-bac9-81ffb90b8f9b",
+      "title": "Druženje s društvom",
+      "completed": false,
+      "date": 1543566984738
+    },
+    {
+      "id": "693e6af8-ea59-4d54-a899-ef3642159f13",
+      "title": "Robertov rođendan",
+      "completed": true,
+      "date": "Sat Mar 30 2019 09:30:21 GMT+0100 (Central European Standard Time)"
+    }
+  ]
+}
