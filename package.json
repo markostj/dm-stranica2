@@ -1,0 +1,22 @@
+{
+  "name": "osvit-practice-project",
+  "version": "1.0.0",
+  "description": "First practice project",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastijandumancic/osvit-practice-project.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastijandumancic/osvit-practice-project/issues"
+  },
+  "homepage": "https://github.com/sebastijandumancic/osvit-practice-project#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}

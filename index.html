@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="main.js"></script>
   </head>
-  <body>
+  <body onload="getJSON('./todo.json', renderTodoCards)">
     <main class="wrapper">
       <header class="header">
         <h1 class="header__title">My To-Do List</h1>
@@ -23,7 +23,7 @@
           Add
         </button>
       </section>
-      <div class="list">
+      <div id="js-list" class="list">
         <div class="item">
           <h2 class="item__title">Learn Javascript</h2>
           <p class="item__date">date</p>
