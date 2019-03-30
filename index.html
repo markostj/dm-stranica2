@@ -7,15 +7,33 @@
     <meta name="author" content="MS" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
-    <main>
-      
+    <main class="wrapper">
+      <header class="header">
+        <h1 class="header__title">My To-Do List</h1>
+        <button class="header__button">
+          Clear all
+        </button>
+      </header>
+      <section class="addTask">
+          <input class="addTask__form" type="text" id="newtask" placeholder="Add new task here" />
+        <button class="addTask__button">
+          Add
+        </button>
+      </section>
+      <div class="list">
+        <div class="item">
+          <h2 class="item__title">Learn Javascript</h2>
+          <p class="item__date">date</p>
+        </div>
+        <div class="item item-finished">
+            <h2 class="item__title">Learn Javascript</h2>
+            <p class="item__date">date</p>
+          </div>
+      </div>
     </main>
-    <footer class="footer">
-    
-    </footer>
-   
+    <footer class="footer"></footer>
   </body>
- 
 </html>

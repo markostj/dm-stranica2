@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: grey;
+}
+html {
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top:50px;
+  padding: 30px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__button {
+  border: 0;
+  height: 30px;
+  color: red;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.addTask__form {
+  border:1px solid rgb(168, 190, 186);
+  color: rgb(0, 128, 100);
+  padding: 15px;
+  border-radius: 20px;
+  height:50px;
+  flex:6;
+  
+}
+.addTask__button {
+  background-color: rgb(0, 128, 100);
+  border: 0;
+  border-radius: 20px;
+  padding: 15px;
+  height:50px;
+  text-transform: uppercase;
+  flex:1;
+}
+
+.item {
+  padding: 15px 20px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item + .item {
+  margin-top: 20px;
+}
+.item__title {
+  font-size: 30px;
+}
+.item-finished {
+  background-color: #e9e9e9;
+}
