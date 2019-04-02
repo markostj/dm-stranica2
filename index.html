@@ -1,35 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
+    <title>Osvit predavanja</title>
+
     <meta charset="utf-8" />
-    <title>Radionica2</title>
     <meta name="description" content="Tečaj web programiranja" />
-    <meta name="author" content="MS" />
+    <meta name="author" content="Osvit" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="main.js"></script>
   </head>
+
   <body onload="getJSON('./todo.json', renderTodoCards)">
-    <main class="wrapper">
+    <main class="main wrapper">
       <header class="header">
-        <h1 class="header__title">My To-Do List</h1>
-        <button class="header__button">
-          Clear all
-        </button>
+        <h1>My To-Do List</h1>
+        <button onclick="clearAllTodoCards()" class="btn btn__clear">Clear all</button>
       </header>
-      <section class="addTask">
+      <div class="new">
         <input
-          class="addTask__form"
+          onchange="filterTodoCards()"
+          id="js-searchbar"
+          class="input"
           type="text"
-          id="newtask"
-          placeholder="Add new task here"
         />
-        <button class="addTask__button">
-          Add
-        </button>
-      </section>
+        <button onclick="addItem()" class="add" class="btn">Add</button>
+      </div>
       <div id="js-list" class="list"></div>
-    </main>
-    <footer class="footer"></footer>
+    </main> <!--napraviti jos dva buttona koji searchaju obavljene i neobavljene zadatke-->
   </body>
 </html>
