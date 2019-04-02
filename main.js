@@ -91,3 +91,23 @@ function addItem() {
   listElement.innerHTML += renderToDoItem(newToDo);
   searchbarElement.value = '';
 }
+
+function filterCompleted() {    //vjerojatno se moze napraviti te 2 funkc u 1
+  clearAllTodoCards();
+  toDoItems.forEach(item => {
+    if( item.completed === true) {
+      listElement.innerHTML +=renderToDoItem(item) ;
+      } });
+}
+function filterNotCompleted() {
+  clearAllTodoCards();
+  toDoItems.forEach(item => {
+    if( item.completed === false) {
+      listElement.innerHTML +=renderToDoItem(item) ;
+      } });
+}
+
+function All() {
+  clearAllTodoCards();
+  renderTodoCards(toDoItems);
+}

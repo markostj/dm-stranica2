@@ -17,7 +17,7 @@
     <main class="main wrapper">
       <header class="header">
         <h1>My To-Do List</h1>
-        <button onclick="clearAllTodoCards()" class="btn btn__clear">Clear all</button>
+        <button onclick="clearAllTodoCards()" class="btn__clear">Clear all</button>
       </header>
       <div class="new">
         <input
@@ -26,8 +26,13 @@
           class="input"
           type="text"
         />
-        <button onclick="addItem()" class="add" class="btn">Add</button>
+        <button onclick="addItem()" class="add btn" >Add</button>
       </div>
+      <div class="filter">
+        <button onclick="filterCompleted()" class="btn btn__filter">Completed</button>
+        <button onclick="filterNotCompleted()" class="btn btn__filter">Not Completed</button>
+      </div>
+      <button onclick="All()" class="btn all">All </button>
       <div id="js-list" class="list"></div>
     </main> <!--napraviti jos dva buttona koji searchaju obavljene i neobavljene zadatke-->
   </body>
