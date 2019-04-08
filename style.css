@@ -55,33 +55,17 @@ body {
 }
 
 .add {
-  flex:1;
-  margin-left: 20px;
- 
-}
-
-.btn__clear{
-  border: 0;
-  height: 30px;
-  color: red;
-  text-transform: uppercase;
-  background-color: transparent
-}
-.filter{
-  display:flex;
-}
-.btn{
-  width:50%;
   height: 50px;
+  flex: 1;
   font-size: 20px;
 }
-.btn__filter{
-  margin-bottom:20px;
+
+.filter-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
-.btn__filter + .btn__filter{
-  margin-left:20px;
-}
-.all{
-  width:100%;
-  margin-bottom:20px;
+
+.filter-list li {
+  list-style: none;
 }
