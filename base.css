@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-main {
+  background: #f9f6ef;
+}
+
+.button {
+  border: 0;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-primary {
+  background-color: #f0795e;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.button-tertiary {
+  color: #f0795e;
+  border: 2px solid #f0795e;
+  background: white;
+}
